@@ -1,0 +1,44 @@
+@media screen and (max-width: 1400px) {
+    
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 992px) {
+section .left,
+section .right{
+    width: 100%;
+}
+section > .inner{
+    height: 1120px;
+}
+section .left{
+    height: 400px;
+}
+section .right{
+    height: 720px;
+    padding: 20px !important;
+}
+}
+@media screen and (max-width: 768px) {
+nav .navbar-brand .fs-4{
+    font-size: 1.125rem !important;
+}
+.nav-underline button{
+    font-size: 13px;
+}
+}
+@media screen and (max-width: 576px) {
+ html{
+    font-size: 15px;
+ }
+ .nav-underline button{
+    font-size: 12px;
+}
+}
+/* /////////////////////////// */
+@media screen and (min-width: 768px) {
+.border-md-0{
+    border-width: 0px !important;
+}
+}
